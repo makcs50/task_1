@@ -7,7 +7,7 @@ const userAge = 20;
   если userAge меньше 35, иначе выведет текст "не по-пацански"
 */
 // тут твой код
-if (userAge > 35){
+if (userAge < 35){
     console.log('you pacan')
 }
 else {
@@ -57,13 +57,14 @@ const email = "admin@intocode.ru";
   Тебе понадобится метод indexOf: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
 */
 // тут твой код
-if( email.indexOf("@") === 0){
-    console.log('неверный пароль')
-}
-else{
+const email = "admi@nintocode.ru";
+
+if( email.indexOf("@") > 0){
     console.log('ты зареган')
 }
-
+else{
+    console.log('неверыный пароль')
+}
 // задание 5
 const x = 2.7;
 const y = -6;
