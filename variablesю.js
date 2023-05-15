@@ -1,0 +1,10 @@
+const gameName;
+const descriptionGame;
+const gameVersion;
+const heroyName;
+const programmerName;
+const languageName;
+const mapName;
+const web_saytName;
+const gameName;
+const interfaceLanguage;
